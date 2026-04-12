@@ -1,0 +1,31 @@
+{
+  "nav": { "cta": "Apply for access" },
+  "hero": {
+    "titleBefore": "Data ",
+    "titleAccent": "tailored",
+    "titleAfter": " to your needs.",
+    "cta": "Learn more"
+  },
+  "features": [
+    {
+      "num": "1",
+      "title": "Actionable insights",
+      "body": "Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics."
+    },
+    {
+      "num": "2",
+      "title": "Data-driven decisions",
+      "body": "Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data."
+    },
+    {
+      "num": "3",
+      "title": "Always affordable",
+      "body": "Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees."
+    }
+  ],
+  "founder": {
+    "title": "Be the first to test",
+    "body": "Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I'll be in touch to schedule a call.",
+    "cta": "Apply for access"
+  }
+}
