@@ -70,10 +70,10 @@ screenshots/
 
 ## Author
 
-- LinkedIn — [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavosanchezgalarza/)
-- GitHub — [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/gusanchefullstack)
-- Hashnode — [![Hashnode](https://img.shields.io/badge/-Hashnode-2962FF?logo=hashnode&logoColor=white)](https://hashnode.com/@gusanchedev)
-- X — [![X](https://img.shields.io/badge/-X-000000?logo=x&logoColor=white)](https://x.com/gusanchedev)
-- Bluesky — [![Bluesky](https://img.shields.io/badge/-Bluesky-0285FF?logo=bluesky&logoColor=white)](https://bsky.app/profile/gusanchedev.bsky.social)
-- freeCodeCamp — [![freeCodeCamp](https://img.shields.io/badge/-freeCodeCamp-0A0A23?logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/gusanchedev)
-- Frontend Mentor — [![Frontend Mentor](https://img.shields.io/badge/-Frontend%20Mentor-3F54A3?logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/profile/gusanchefullstack)
+[![LinkedIn](https://img.shields.io/badge/-LINKEDIN-2F6FEB?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavosanchezgalarza/)
+[![GitHub](https://img.shields.io/badge/-GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gusanchefullstack)
+[![Hashnode](https://img.shields.io/badge/-HASHNODE-3B5BFE?style=for-the-badge&logo=hashnode&logoColor=white)](https://hashnode.com/@gusanchedev)
+[![X](https://img.shields.io/badge/-X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/gusanchedev)
+[![Bluesky](https://img.shields.io/badge/-BLUESKY-4A99E9?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/gusanchedev.bsky.social)
+[![freeCodeCamp](https://img.shields.io/badge/-FREECODECAMP-0A0A23?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/gusanchedev)
+[![Frontend Mentor](https://img.shields.io/badge/-FRONTEND%20MENTOR-3F54A3?style=for-the-badge&logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/profile/gusanchefullstack)
