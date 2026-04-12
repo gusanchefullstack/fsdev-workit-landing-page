@@ -1,0 +1,58 @@
+/* ---------- Buttons / Links ---------- */
+
+.btn {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 2;
+  letter-spacing: -0.01em;
+  padding: 0.6875rem 2rem;
+  transition: color var(--t-base), background-color var(--t-base),
+    border-color var(--t-base);
+}
+
+.btn-primary {
+  background-color: var(--color-eucalyptus);
+  color: var(--color-dark-purple);
+  border: 2px solid var(--color-eucalyptus);
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  background-color: transparent;
+  color: var(--color-eucalyptus);
+}
+
+.link-underline {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--color-white);
+  border-bottom: 3px solid var(--color-eucalyptus);
+  padding-bottom: 0.25rem;
+  transition: color var(--t-base);
+}
+
+.link-underline--dark {
+  color: var(--color-dark-purple);
+}
+
+.link-underline:hover,
+.link-underline:focus-visible {
+  color: var(--color-eucalyptus);
+}
+
+/* accent word: "tailored" */
+.accent-underline {
+  border-bottom: 3px solid var(--color-eucalyptus);
+  padding-bottom: 0.15em;
+}
+
+/* ---------- Container ---------- */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--container-pad-inline);
+}
