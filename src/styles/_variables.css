@@ -1,0 +1,46 @@
+:root {
+  /* Colors */
+  --color-dark-purple: hsl(273, 85%, 13%);
+  --color-eucalyptus: hsl(150, 100%, 63%);
+  --color-davy-grey: hsl(271, 12%, 34%);
+  --color-ghost-white: hsl(276, 100%, 99%);
+  --color-white: hsl(0, 0%, 100%);
+
+  /* Typography */
+  --font-heading: 'Fraunces', serif;
+  --font-body: 'Manrope', sans-serif;
+
+  --fw-heading: 600;
+  --fw-body-regular: 400;
+
+  /* Fluid type (mobile -> desktop) */
+  --fs-display: clamp(3.125rem, 2rem + 4.8vw, 5rem);      /* H1 50-80 */
+  --fs-h2: clamp(2rem, 1.4rem + 2.5vw, 3.5rem);            /* Founder H2 32-56 */
+  --fs-h3: 2rem;                                           /* Feature title 32 */
+  --fs-body: clamp(1rem, 0.9rem + 0.25vw, 1.125rem);       /* 16-18 */
+
+  --lh-tight: 1;
+  --lh-heading: 1.1;
+  --lh-body: 1.75;
+
+  /* Spacing scale */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4.5rem;
+  --space-3xl: 7rem;
+
+  /* Layout */
+  --container-max: 69.375rem; /* 1110px */
+  --container-pad-inline: clamp(1rem, 4vw, 2.5rem);
+
+  /* Radii */
+  --radius-pill: 999px;
+
+  /* Transitions */
+  --t-fast: 150ms ease;
+  --t-base: 250ms ease;
+}
