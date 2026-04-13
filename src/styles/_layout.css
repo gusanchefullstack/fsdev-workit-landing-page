@@ -4,8 +4,8 @@
   position: relative;
   background-color: var(--color-dark-purple);
   color: var(--color-white);
-  padding-block: 2rem 12rem;
-  overflow: hidden;
+  padding-block: 2rem 4rem;
+  overflow: visible;
   /* Curved bottom */
   border-bottom-left-radius: 50% 6rem;
   border-bottom-right-radius: 50% 6rem;
@@ -51,11 +51,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-block: 1rem;
+  padding-block: 2rem 0;
 }
 
 .hero__content {
-  margin-top: 3rem;
+  margin-top: 3.5rem;
   text-align: center;
 }
 
@@ -65,7 +65,7 @@
   font-size: var(--fs-display);
   line-height: var(--lh-heading);
   letter-spacing: -0.02em;
-  max-width: 12ch;
+  max-width: 16ch;
   margin-inline: auto;
 }
 
@@ -73,22 +73,46 @@
   margin-top: 2.5rem;
 }
 
+@media (min-width: 64rem) {
+  .site-header {
+    padding-block: 3.5rem 0;
+  }
+  .hero__content {
+    margin-top: 3.5rem;
+  }
+  .hero__title {
+    max-width: 40rem; /* 635px */
+  }
+  .hero__cta {
+    margin-top: 2.5rem;
+  }
+}
+
+/* Phone image straddles the curved boundary between hero (dark) and features (light). */
 .hero__image {
+  display: block;
+  height: auto;
+  width: min(22rem, 80%);
+  margin-inline: auto;
+  margin-top: 3rem;
+  margin-bottom: calc(-1 * min(22rem, 80%) * 0.33); /* ~half of visual height below curve */
   position: relative;
   z-index: 2;
-  margin-inline: auto;
-  margin-top: 3.5rem;
-  margin-bottom: -10rem;
-  max-width: 25rem;
+}
+
+@media (min-width: 48rem) {
+  .hero__image {
+    width: min(36rem, 70%);
+    margin-bottom: calc(-1 * min(36rem, 70%) * 0.33);
+  }
 }
 
 @media (min-width: 64rem) {
   .hero__image {
-    max-width: 47rem;
-    margin-bottom: -14rem;
-  }
-  .hero {
-    padding-bottom: 16rem;
+    width: 47.625rem; /* 762px */
+    max-width: 80%;
+    margin-top: 3.5rem;
+    margin-bottom: -10.5rem; /* ~half of rendered phone height below hero */
   }
 }
 
@@ -97,10 +121,16 @@
 .features {
   position: relative;
   background-color: var(--color-ghost-white);
-  padding-block: 10rem 6rem;
+  padding-block: 9rem 6rem;
   overflow: hidden;
   border-bottom-left-radius: 50% 6rem;
   border-bottom-right-radius: 50% 6rem;
+}
+
+@media (min-width: 64rem) {
+  .features {
+    padding-block: 13rem 9rem; /* clears phone lower half + 88px Figma gap */
+  }
 }
 
 .features__list {
@@ -216,28 +246,33 @@
   .founder__inner {
     flex-direction: row;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: space-between;
     gap: 0;
-    min-height: 24rem;
+    min-height: 36.1875rem; /* 579px */
   }
   .founder__image {
-    width: 29%;
-    max-width: 18rem;
+    width: 29.8125rem; /* 477px */
+    flex-shrink: 0;
     position: relative;
-    z-index: 2;
-    margin-right: -6rem;
+    z-index: 1;
+    margin-right: -5.5rem;
+    margin-bottom: 0;
+    align-self: flex-start;
   }
   .founder__card {
     margin-top: 0;
     padding: 4rem;
-    max-width: 45rem;
+    flex: 1 1 auto;
+    max-width: 45.625rem; /* 730px */
     text-align: left;
-    padding-left: 7rem;
+    align-self: flex-end;
+    position: relative;
+    z-index: 2;
   }
   .founder__pattern {
-    right: -2rem;
-    bottom: -5rem;
-    width: 12rem;
+    right: -3rem;
+    bottom: -6rem;
+    width: 13.75rem; /* 220px */
   }
 }
 
