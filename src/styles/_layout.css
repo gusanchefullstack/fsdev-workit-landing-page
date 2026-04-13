@@ -1,10 +1,21 @@
 /* ============ HEADER + HERO ============ */
 
+.site-header {
+  background-color: var(--color-dark-purple);
+  padding-block: 2rem 0;
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .hero {
   position: relative;
   background-color: var(--color-dark-purple);
   color: var(--color-white);
-  padding-block: 2rem 4rem;
+  padding-block: 0 4rem;
   overflow: visible;
   /* Curved bottom */
   border-bottom-left-radius: 50% 6rem;
@@ -47,15 +58,8 @@
   }
 }
 
-.site-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-block: 2rem 0;
-}
-
 .hero__content {
-  margin-top: 3.5rem;
+  padding-top: 3.5rem;
   text-align: center;
 }
 
@@ -78,7 +82,7 @@
     padding-block: 3.5rem 0;
   }
   .hero__content {
-    margin-top: 3.5rem;
+    padding-top: 3.5rem;
   }
   .hero__title {
     max-width: 40rem; /* 635px */
