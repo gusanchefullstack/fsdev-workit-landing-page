@@ -19,7 +19,7 @@
     https://www.frontendmentor.io/profile/gusanchefullstack
 11. Use playwright skills to test implementation at 375px and 1440px screens. Take screenshots for both scenarios and add them to the readme in the screenshots section.
 12. Github repo must be created with a prefix "fsdev-" to identify later the repos created.
-13. Add this project to my landing page following the /Update-landing-portfolio
+13. Use semantic HTML (header, nav, main, aside, footer, article, section) consistently — it clarifies structure for users and assistive tech and reduces the need for extra ARIA. One main per page is a simple, high-impact rule to remember. Wrap the primary page content in a single <main> element (and remove any other main roles/elements). If you have multiple sections that look “main-like,” choose one principal area and mark others with appropriate semantics (section, aside, nav).
 
 
 # Architecture
